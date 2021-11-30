@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo{
+    height: 100%;
+    width: 35%;
+    background-color:rgb(20, 20, 20);
+    padding-left: 20px;
+}
+
+.logo img{
+    height: 90%;
+    width: auto;
+}
+
+
+.menu{
+    height: 100%;
+    width: 65%;
+    background-color: rgb(20, 20, 20);
+}
+
+
+nav{
+    height: 100%;
+    width: 65%;
+}
+
+nav ul{
+    list-style: none;
+    color: blueviolet;
+    font-family: Roboto;
+    list-style-type: square;
+    padding: 35px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+nav a:hover{
+    color: gainsboro;
+}
+
+ul ul{
+    display: none;
+    position: absolute;
+}
+
+ul li:hover ul{
+    display: block;
+    background-color:darkgrey;
+    padding: 5px;
+}
+
+ul ul li{
+    display: block;
+    padding: 5px;
+}
+
+
+.containerBanner{
+    height: 350px;
+    width: 100%;
+}
+
+.containerBanner img{
+    height: auto;
+    width: 100%;
+}
+
+#nosotros{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#nosotros h2{
+    color: brown;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contenidoNosotros{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.containerVideo{
+    width: 50%;
+    padding: 20px;
+}
+
+
+.containerTexto{
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    padding: 20px;
+}
+
+.containerTexto p{
+    color: palevioletred;
+    font-style: italic;
+    font-family: Roboto;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+
+#resenas{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#resenas h3{
+    color: brown;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#resenas a{
+    text-decoration: none;
+    color: brown;
+}
+
+.contenedor{
+    height: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1f 1fr;
+    grid-row-gap: 2%;
+    justify-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.contenedor .item{
+    height: auto;
+    width: 200px;
+    border: 2px;
+}
+
+.contenedor .item p{
+    color: palevioletred;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px;
+}
+
+
+
+#galeria{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#galeria h4{
+    color: brown;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.contenedorGaleria{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1f 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    justify-content: center;
+    justify-items: center;
+    padding: 50px 100px;
+}
+
+.contenedorGaleria .item{
+    height: 200px;
+    width: 200px;
+}
+
+#contacto{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h5{
+    color: brown;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#contacto .containerContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.containerFormulario{
+    padding: 20px;
+    margin: 20px;
+}
+
+#contacto form{
+    margin: 20px;
+}
+
+.containerMapa{
+    padding: 20px;
+    margin: 20px;
+}
+
+
+#contacto h6{
+    color: palevioletred;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+#footer{
+    height: 100px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: grey;
+}
+
+#footer h6{
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.logosRedes{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+#footer a{
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+}
