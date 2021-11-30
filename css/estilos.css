@@ -254,11 +254,14 @@ ul ul li{
     width: 200px;
 }
 
+
 #contacto{
     height: 400px;
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background: rgb(220,220,220);
+    background: linear-gradient(180deg, rgba(220,220,220,1) 0%, rgba(128,128,128,1) 100%);
 }
 
 h5{
